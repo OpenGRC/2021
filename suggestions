@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns="https://opengrc.org/2021/draft/suggestions" 
-targetNamespace="https://opengrc.org/2021/draft/suggestions">
+xmlns="https://opengrc.org/2021/main/suggestions" 
+targetNamespace="https://opengrc.org/2021/main/suggestions">
   <xs:element name="suggestions">
     <xs:complexType>
       <xs:sequence>
