@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns="https://opengrc.org/2021/draft/specification" 
+targetNamespace="https://opengrc.org/2021/draft/specification">
+  <xs:element name="specification">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="identifier"/>
+        <xs:element type="xs:float" name="version"/>
+        <xs:element name="spec-object" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="spec-object-type"/>
+              <xs:element type="xs:byte" name="spec-object-order" minOccurs="0"/>
+              <xs:element type="xs:string" name="spec-object-identifier"/>
+              <xs:element type="xs:string" name="spec-object-parent-identifier" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
