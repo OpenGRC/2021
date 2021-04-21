@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns="https://opengrc.org/2021/draft/package"
+targetNamespace="https://opengrc.org/2021/draft/package" >
+  <xs:element name="package">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="assembly" use="required">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="headings" type="xs:string" minOccurs="0"/>
+                    <xs:element name="controls" type="xs:string" minOccurs="0"/>
+                    <xs:element name="suggestions" type="xs:string" minOccurs="0"/>
+                    <xs:element name="requirements" type="xs:string" minOccurs="0"/>
+                    <xs:element name="specification" type="xs:string" minOccurs="0"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
