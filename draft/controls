@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns="https://opengrc.org/2021/draft/controls" 
+targetNamespace="https://opengrc.org/2021/draft/controls">
+<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
+  <xs:element name="controls">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="identifier"/>
+        <xs:element type="xs:string" name="name"/>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element type="xs:string" name="version"/>
+        <xs:element name="control" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="identifier"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="definition" minOccurs="0"/>
+              <xs:element type="xs:string" name="instruction" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
