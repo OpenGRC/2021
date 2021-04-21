@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns="https://opengrc.org/2021/draft/suggestions" 
+targetNamespace="https://opengrc.org/2021/draft/suggestions">
+  <xs:element name="suggestions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="identifier"/>
+        <xs:element type="xs:float" name="version"/>
+        <xs:element name="suggestion" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="suggestion-left-type" />
+	      <xs:element type="xs:string" name="suggestion-right-type" />
+              <xs:element type="xs:string" name="suggestion-left-identifier" />
+	      <xs:element type="xs:string" name="suggestion-right-identifier" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
