@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns="https://opengrc.org/2021/main/requirements" 
-targetNamespace="https://opengrc.org/2021/main/requirements">
+xmlns="https://xml.opengrc.org/2021/requirements" 
+targetNamespace="https://xml.opengrc.org/2021/requirements">
 <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
   <xs:element name="requirements">
     <xs:complexType>
