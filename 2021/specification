@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns="https://opengrc.org/2021/main/specification" 
-targetNamespace="https://opengrc.org/2021/main/specification">
+xmlns="https://xml.opengrc.org/2021/specification" 
+targetNamespace="https://xml.opengrc.org/2021/specification">
   <xs:element name="specification">
     <xs:complexType>
       <xs:sequence>
