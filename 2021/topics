@@ -4,10 +4,10 @@
     xmlns="https://xml.opengrc.org/2021/headings" 
     targetNamespace="https://xml.opengrc.org/2021/headings">
 <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
-  <xs:element name="headings">
+  <xs:element name="topics">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="heading" maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="topic" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="identifier" />
