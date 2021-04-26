@@ -9,7 +9,7 @@ targetNamespace="https://xml.opengrc.org/2021/package" >
         <xs:element name="assembly" use="required">
             <xs:complexType>
                 <xs:sequence>
-                    <xs:element name="headings" type="xs:string" minOccurs="0"/>
+                    <xs:element name="topics" type="xs:string" minOccurs="0"/>
                     <xs:element name="controls" type="xs:string" minOccurs="0"/>
                     <xs:element name="suggestions" type="xs:string" minOccurs="0"/>
                     <xs:element name="requirements" type="xs:string" minOccurs="0"/>
