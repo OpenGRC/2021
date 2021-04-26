@@ -6,8 +6,8 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 
 ## Schema index
 ### Metadata
+- <https://xml.opengrc.org/2021/topics>
 - <https://xml.opengrc.org/2021/package>
-- <https://xml.opengrc.org/2021/headings>
 - <https://xml.opengrc.org/2021/suggestions>
 - <https://xml.opengrc.org/2021/specification>
 
