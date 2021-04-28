@@ -40,7 +40,7 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 - The ''identifier'' field shall be set to a unique string to identify a particular item
 - Identifiers in packages published for public consumption shall be IRIs, <https://tools.ietf.org/html/rfc3987>
   - Web addresses are valid, example: https://organization.tld/accounting/requirements/europe#article-52
-  - Tip: Made-up web addresses are equally valid, use any scheme you want on your own domain names
+  - Tip: Made-up web addresses are equally valid, use any scheme you want with your own domain names
 - Identifiers should be URNs if they belong to an assigned namespace
   - IANA maintains an official list here: https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml
   - Examples: National legislation, ISO standards, books; structured schemes like OID or ucode
