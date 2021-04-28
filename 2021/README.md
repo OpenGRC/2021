@@ -52,7 +52,7 @@ Examples:
  - 2019-3.7-draft
  - 1996-06.superseeded
  - 2021.06.12-14:55UTC
- - 1-final&ensp;FINAL&ensp;draft&ensp;
+ - 1-final%20FINAL%20draft
  
 ### Understanding identifiers
 - The ''identifier'' element serves the purpose to uniquely identify a particular element across versions and language versions
