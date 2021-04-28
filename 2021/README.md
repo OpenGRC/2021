@@ -71,8 +71,10 @@ Examples:
 
 ### How to pack content for distribution:
 1. Create content in compliance with the appropriate schemas using your favourite tool
-3. Create a 'manifest.xml' file at the root folder in accordance with the schema <https://xml.opengrc.org/2021/package>
+3. Create a 'manifest.xml' file at the root folder in accordance with the schema <https://xml.opengrc.org/2021/package.xsd>
 4. In the 'manifest.xml' document, add relative path to each file which belongs in the package assembly
 5. Pack the files as a zip file archive (do not enable password protection)
 6. Ensure that the file suffix is ''.opengrc'', rename it from ''.zip'' if required
 7. Generate the MD5 checksum for your distribution package, publish the checksum on your webside
+   - You can use the built-in tools in your operating system. On Windows there is a PowerShell module ''Get-FileHash''
+   - Publishing the hash in an authoritative location helps to ensure the authenticity and integrity of your package
