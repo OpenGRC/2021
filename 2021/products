@@ -17,7 +17,7 @@ targetNamespace="https://xml.opengrc.org/2021/products">
               <xs:element type="xs:string" name="identifier" use="required"/>
               <xs:element type="xs:string" name="name" use="required"/>
               <xs:element type="xs:string" name="title" use="optional"/>
-              <xs:element type="xs:string" name="type" use="required"/>
+              <xs:element type="xs:string" name="type" use="optional"/>
               <xs:element type="xs:string" name="category" use="optional"/>
               <xs:element type="xs:string" name="definition" minOccurs="0"/>
             </xs:sequence>
