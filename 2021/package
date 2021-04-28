@@ -22,7 +22,8 @@ targetNamespace="https://xml.opengrc.org/2021/package" >
                     <xs:element name="causes" type="xs:string" minOccurs="0"/>
                     <xs:element name="sources" type="xs:string" minOccurs="0"/>
                     <xs:element name="occurrences" type="xs:string" minOccurs="0"/>
-                    <xs:element name="audits" type="xs:string" minOccurs="0"/>
+                    <xs:element name="audit" type="xs:string" minOccurs="0"/>
+                    <xs:element name="criteria" type="xs:string" minOccurs="0"/>
                     <xs:element name="controls" type="xs:string" minOccurs="0"/>
                     <xs:element name="requirements" type="xs:string" minOccurs="0"/>
                 </xs:sequence>
