@@ -33,6 +33,27 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 - For full XML capabilities it is recommended to use a proper editor, like those found in this list: <https://en.wikipedia.org/wiki/Comparison_of_XML_editors>
 - For complex authoring needs, the use of a dedicated authoring tool is highly recommended
 
+### Understanding version numbering
+The ''version'' property in an OpenGRC document is a string made up of up to four sets of numbers of decreasing significance separated by full stops or dashes and optionally a short string without spaces appended to the end with a dash or full stop: 
+- ''Version'', conceptually different (breaking changes)
+- ''Major revision'', big updates (breaking changes)
+- ''Minor revision'', new features (non-breaking changes)
+- ''Correction'', minor fixes (non-breaking changes)
+- ''Variant'', additional release information (non-breaking changes)
+ 
+Dates and times in the version numbering should be represented according to ISO-8601, <https://www.iso.org/iso-8601-date-and-time-format.html>
+ 
+Examples:
+ - 5
+ - 2.0b
+ - 4.2019
+ - 20200821
+ - 1.0.0.4-rc
+ - 2019.4-draft
+ - 1996-06.superseeded
+ - 2021.06.12-14:55UTC
+ - 1-final&ensp;FINAL&ensp;draft&ensp;
+ 
 ### Understanding identifiers
 - The ''identifier'' element serves the purpose to uniquely identify a particular element across versions and language versions
 - The ''identifier'' element does not serve the same purpose as ''xml:id'', <https://www.w3.org/TR/xml-id/>
