@@ -13,6 +13,7 @@
               <xs:element type="xs:string" name="identifier" use="required" />
               <xs:element type="xs:string" name="class" use="required" />
               <xs:element type="xs:string" name="name" use="required" />
+              <xs:element type="xs:string" name="definition" use="optional" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
