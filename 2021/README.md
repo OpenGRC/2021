@@ -49,7 +49,7 @@ Examples:
  - 4.2019
  - 20200821
  - 1.0.0.4-rc
- - 2019.4-draft
+ - 2019-3.7-draft
  - 1996-06.superseeded
  - 2021.06.12-14:55UTC
  - 1-final&ensp;FINAL&ensp;draft&ensp;
