@@ -11,9 +11,9 @@ targetNamespace="https://opengrc.org/2021/relations">
         <xs:element name="relation" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="relation-kind" />
               <xs:element type="xs:string" name="relation-left-type" />
 	      <xs:element type="xs:string" name="relation-right-type" />
+              <xs:element type="xs:string" name="relation-type-identifier" />
               <xs:element type="xs:string" name="relation-left-identifier" />
 	      <xs:element type="xs:string" name="relation-right-identifier" />
             </xs:sequence>
