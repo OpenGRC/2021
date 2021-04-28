@@ -44,7 +44,7 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 - Identifiers should be URNs if they belong to an assigned namespace
   - IANA maintains an official list here: https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml
   - Examples: National legislation, ISO standards, books; structured schemes like OID or ucode
-- Identifiers which are UUIDs can be formatted according to the URN scheme, <https://tools.ietf.org/html/rfc4122>
+- Identifiers which are naked UUIDs shall be formatted according to the URN scheme, <https://tools.ietf.org/html/rfc4122>
   - Example: urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6
   - Here is an online UUID generator: https://www.uuidgenerator.net/
 
