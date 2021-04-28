@@ -6,25 +6,25 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 
 ## Schema index
 ### Metadata
-- <https://xml.opengrc.org/2021/types>
-- <https://xml.opengrc.org/2021/topics>
-- <https://xml.opengrc.org/2021/relations>
-- <https://xml.opengrc.org/2021/categories>
-- <https://xml.opengrc.org/2021/suggestions>
-- <https://xml.opengrc.org/2021/specification>
+- <https://xml.opengrc.org/2021/types.xsd>
+- <https://xml.opengrc.org/2021/topics.xsd>
+- <https://xml.opengrc.org/2021/relations.xsd>
+- <https://xml.opengrc.org/2021/categories.xsd>
+- <https://xml.opengrc.org/2021/suggestions.xsd>
+- <https://xml.opengrc.org/2021/specification.xsd>
 
 ### Objects
-- <https://xml.opengrc.org/2021/assets>
-- <https://xml.opengrc.org/2021/products>
-- <https://xml.opengrc.org/2021/threats>
-- <https://xml.opengrc.org/2021/treatments>
-- <https://xml.opengrc.org/2021/causes>
-- <https://xml.opengrc.org/2021/sources>
-- <https://xml.opengrc.org/2021/occurrences>
-- <https://xml.opengrc.org/2021/audit>
-- <https://xml.opengrc.org/2021/criteria>
-- <https://xml.opengrc.org/2021/controls>
-- <https://xml.opengrc.org/2021/requirements>
+- <https://xml.opengrc.org/2021/assets.xsd>
+- <https://xml.opengrc.org/2021/products.xsd>
+- <https://xml.opengrc.org/2021/threats.xsd>
+- <https://xml.opengrc.org/2021/treatments.xsd>
+- <https://xml.opengrc.org/2021/causes.xsd>
+- <https://xml.opengrc.org/2021/sources.xsd>
+- <https://xml.opengrc.org/2021/occurrences.xsd>
+- <https://xml.opengrc.org/2021/audit.xsd>
+- <https://xml.opengrc.org/2021/criteria.xsd>
+- <https://xml.opengrc.org/2021/controls.xsd>
+- <https://xml.opengrc.org/2021/requirements.xsd>
 
 ## Authoring and distribution
 
