@@ -36,11 +36,13 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 ### Understanding identifiers
 - The ''identifier'' element serves the purpose to uniquely identify a particular element across versions and language versions
 - The ''identifier'' element does not serve the same purpose as ''xml:id'', <https://www.w3.org/TR/xml-id/>
-- The ''identifier'' field should be set to a globally unique string to uniquely identify a particular class or instance
-- Identifiers in packages published for public consumption should be URNs, <https://tools.ietf.org/html/rfc8141>
-- Identifiers in packages for internal use can be UUIDs, <https://tools.ietf.org/html/rfc4122>
-- Identifiers in packages for internal that are UUIDs use also be URNs, <https://tools.ietf.org/html/rfc4122>
 - Identifiers are used to link objects and metadata separately from the XML-intrinsic reference functionality
+- The ''identifier'' field shall be set to a unique string to identify a particular item
+- Identifiers in packages published for public consumption shall be IRIs, <https://tools.ietf.org/html/rfc3987>
+- Identifiers should be URNs if they belong to an assigned namespace, https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml
+- Identifiers which are UUIDs can be formatted according to the URN scheme, <https://tools.ietf.org/html/rfc4122>
+  - Example: urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6
+  - Here is an online UUID generator: https://www.uuidgenerator.net/
 
 ### How to pack content for distribution:
 1. Create content in compliance with the appropriate schemas using your favourite tool
