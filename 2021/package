@@ -10,10 +10,21 @@ targetNamespace="https://xml.opengrc.org/2021/package" >
             <xs:complexType>
                 <xs:sequence>
                     <xs:element name="topics" type="xs:string" minOccurs="0"/>
-                    <xs:element name="controls" type="xs:string" minOccurs="0"/>
+                    <xs:element name="types" type="xs:string" minOccurs="0"/>
+                    <xs:element name="relations" type="xs:string" minOccurs="0"/>
+                    <xs:element name="categories" type="xs:string" minOccurs="0"/>
                     <xs:element name="suggestions" type="xs:string" minOccurs="0"/>
-                    <xs:element name="requirements" type="xs:string" minOccurs="0"/>
                     <xs:element name="specification" type="xs:string" minOccurs="0"/>
+                    <xs:element name="assets" type="xs:string" minOccurs="0"/>
+                    <xs:element name="products" type="xs:string" minOccurs="0"/>
+                    <xs:element name="threats" type="xs:string" minOccurs="0"/>
+                    <xs:element name="treatments" type="xs:string" minOccurs="0"/>
+                    <xs:element name="causes" type="xs:string" minOccurs="0"/>
+                    <xs:element name="sources" type="xs:string" minOccurs="0"/>
+                    <xs:element name="occurrences" type="xs:string" minOccurs="0"/>
+                    <xs:element name="audits" type="xs:string" minOccurs="0"/>
+                    <xs:element name="controls" type="xs:string" minOccurs="0"/>
+                    <xs:element name="requirements" type="xs:string" minOccurs="0"/>
                 </xs:sequence>
             </xs:complexType>
         </xs:element>
