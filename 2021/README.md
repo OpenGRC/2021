@@ -39,7 +39,10 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 - Identifiers are used to link objects and metadata separately from the XML-intrinsic reference functionality
 - The ''identifier'' field shall be set to a unique string to identify a particular item
 - Identifiers in packages published for public consumption shall be IRIs, <https://tools.ietf.org/html/rfc3987>
-- Identifiers should be URNs if they belong to an assigned namespace, https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml
+  - Web addresses are valid, example: https://organization.tld/accounting/requirements/europe#article-52
+- Identifiers should be URNs if they belong to an assigned namespace
+  - IANA maintains an official list here: https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml
+  - Examples: National legislation, ISO standards, books; structured schemes like OID or ucode
 - Identifiers which are UUIDs can be formatted according to the URN scheme, <https://tools.ietf.org/html/rfc4122>
   - Example: urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6
   - Here is an online UUID generator: https://www.uuidgenerator.net/
