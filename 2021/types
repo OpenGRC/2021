@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns="https://xml.opengrc.org/2021/types" 
+    targetNamespace="https://xml.opengrc.org/2021/types">
+<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
+  <xs:element name="types">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="type" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="identifier" use="required" />
+              <xs:element type="xs:string" name="class" use="required" />
+              <xs:element type="xs:string" name="name" use="required" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
