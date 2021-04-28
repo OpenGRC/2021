@@ -21,7 +21,8 @@ The OpenGRC native XML file format is designed to facilitate easy transformation
 - <https://xml.opengrc.org/2021/causes>
 - <https://xml.opengrc.org/2021/sources>
 - <https://xml.opengrc.org/2021/occurrences>
-- <https://xml.opengrc.org/2021/audits>
+- <https://xml.opengrc.org/2021/audit>
+- <https://xml.opengrc.org/2021/criteria>
 - <https://xml.opengrc.org/2021/controls>
 - <https://xml.opengrc.org/2021/requirements>
 
