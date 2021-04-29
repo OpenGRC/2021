@@ -6,26 +6,26 @@ targetNamespace="https://xml.opengrc.org/2021/package" >
   <xs:element name="package">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="assembly" use="required">
+        <xs:element name="assembly">
             <xs:complexType>
                 <xs:sequence>
-                    <xs:element name="topics" type="xs:string" minOccurs="0"/>
-                    <xs:element name="types" type="xs:string" minOccurs="0"/>
-                    <xs:element name="relations" type="xs:string" minOccurs="0"/>
-                    <xs:element name="categories" type="xs:string" minOccurs="0"/>
-                    <xs:element name="suggestions" type="xs:string" minOccurs="0"/>
-                    <xs:element name="specification" type="xs:string" minOccurs="0"/>
-                    <xs:element name="assets" type="xs:string" minOccurs="0"/>
-                    <xs:element name="products" type="xs:string" minOccurs="0"/>
-                    <xs:element name="threats" type="xs:string" minOccurs="0"/>
-                    <xs:element name="treatments" type="xs:string" minOccurs="0"/>
-                    <xs:element name="causes" type="xs:string" minOccurs="0"/>
-                    <xs:element name="sources" type="xs:string" minOccurs="0"/>
-                    <xs:element name="occurrences" type="xs:string" minOccurs="0"/>
-                    <xs:element name="audit" type="xs:string" minOccurs="0"/>
-                    <xs:element name="criteria" type="xs:string" minOccurs="0"/>
-                    <xs:element name="controls" type="xs:string" minOccurs="0"/>
-                    <xs:element name="requirements" type="xs:string" minOccurs="0"/>
+                    <xs:element name="topics" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="types" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="relations" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="categories" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="suggestions" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="specification" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="assets" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="products" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="threats" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="treatments" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="causes" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="sources" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="occurrences" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="audit" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="criteria" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="controls" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="requirements" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
                 </xs:sequence>
             </xs:complexType>
         </xs:element>
