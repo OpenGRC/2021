@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns="https://xml.opengrc.org/2021/categories" 
-    targetNamespace="https://xml.opengrc.org/2021/categories">
-<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
+	elementFormDefault="unqualified"
+	attributeFormDefault="unqualified">
+  <xs:include schemaLocation="https://xml.opengrc.org/2021/categories.xsd" />
   <xs:element name="categories">
     <xs:complexType>
       <xs:sequence>
@@ -19,7 +19,7 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute ref="xml:lang" use="required" />
+      <xs:attribute name="lang" use="required" />
     </xs:complexType>
   </xs:element>
 </xs:schema>
