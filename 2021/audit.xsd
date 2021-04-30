@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+        xmlns="https://xml.opengrc.org/2021/audit"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	elementFormDefault="unqualified"
 	attributeFormDefault="unqualified">
-  <xs:include schemaLocation="https://xml.opengrc.org/2021/audit.xsd" />
   <xs:element name="audit">
     <xs:complexType>
       <xs:sequence>
