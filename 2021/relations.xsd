@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
-xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns="https://opengrc.org/2021/relations" 
-targetNamespace="https://opengrc.org/2021/relations">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	elementFormDefault="unqualified"
+	attributeFormDefault="unqualified">
+  <xs:include schemaLocation="https://xml.opengrc.org/2021/relations.xsd" />
   <xs:element name="relations">
     <xs:complexType>
       <xs:sequence>
